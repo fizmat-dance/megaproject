@@ -1,0 +1,41 @@
+html,
+body {
+  font-size: 15px;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #000;
+}
+*,
+*:before,
+*::after {
+  box-sizing: border-box;
+}
+.title {
+  margin: 0;
+  font-size: 2rem;
+  color: #194eb4;
+  font-weight: 700;
+}
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  padding: 5em 1em;
+  background-color: #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1rem;
+  color: #000;
+  text-decoration: none;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #c4c4c4;
+}
+.btn--primary {
+  background-color: #194eb4;
+}
+.btn--secondary {
+  background-color: #f2b834;
+}
